@@ -8666,12 +8666,26 @@ function boot(){
   document.addEventListener('keydown', onKey);
   $('#stage').addEventListener('click', e => {
     if (e.target.closest('.life-line')) return;
+    if (e.target.closest('#decade-rail')) {
+      const cell = e.target.closest('#decade-rail > div');
+      if (cell && cell.style.cursor === 'pointer') return;
+    }
     if (e.target.closest('#legend')) return;
     if (e.target.closest('#legend-dock')) return;
     if (e.target.closest('#chrome-dock')) return;
     if (e.target.closest('#artist-panel')) return;
     if (e.target.closest('#lightbox')) return;
+    if (!$('#artist-panel').hidden) closePanel();
     clearMediumFilter();
+  });
+  document.addEventListener('click', e => {
+    if ($('#artist-panel').hidden) return;
+    if (e.target.closest('#artist-panel')) return;
+    if (e.target.closest('#stage')) return;
+    if (e.target.closest('#lightbox')) return;
+    if (e.target.closest('#legend') || e.target.closest('#legend-dock') || e.target.closest('#chrome-dock')) return;
+    if (e.target.closest('#century-pick')) return;
+    closePanel();
   });
 }
 
@@ -8699,7 +8713,8 @@ function draw(range){
     if (hero){
       cell.title = `${hero.work.title} — ${hero.artist.name}`;
       cell.style.cursor = 'pointer';
-      cell.addEventListener('click', () => {
+      cell.addEventListener('click', e => {
+        e.stopPropagation();
         selectArtistSpan(hero.artist, range);
         openPanel(hero.artist, hero.work);
       });
@@ -8763,7 +8778,8 @@ function draw(range){
     el.style.background = it.color;
     el.title = `${it.artist.nameFull} (${it.artist.dates})`;
     el.innerHTML = `<span class="line-label">${escapeHtml(it.artist.name)}<span class="yrs">(${escapeHtml(it.artist.dates)})</span></span>`;
-    el.addEventListener('click', () => {
+    el.addEventListener('click', e => {
+      e.stopPropagation();
       selectLine(it, range);
     });
     lane.appendChild(el);
