@@ -1,9 +1,40 @@
 # Extension notes — artists born ≤1454
 
-Cutoff: **born ≤ 1454** (Leonardo 1452 in; Michelangelo 1475 / Raphael 1483 out).
+Cutoff: **born ≤ 1454** (Leonardo da Vinci 1452 in; Michelangelo 1475 / Raphael 1483 out).
 Timeline works may run past 1455. Existing first-age artists stay intact.
 
-Span target: decades through latest major work years (~1510); centuries `[1200,1300,1400]`.
+Span target: decades 1050–1510; centuries `[1000,1100,1200,1300,1400]`. Vasari does not write dedicated Lives before Cimabue; the 1050–1250 stretch uses named Italian and Low Countries/Mosan artists (plus Saint-Denis, Chartres west, Gislebertus, Hildegard for context) and Wikipedia-gallery works.
+
+## 1050–1250 (before Vasari’s first Lives)
+
+Vasari begins with Cimabue. These named figures cover his regions (Italy, the Low Countries / Mosan Meuse) plus a few neighbours for context. Works come from each Wikipedia gallery, filtered to the relevant campaign.
+
+| id | name | dates | medium | region |
+|----|------|-------|--------|--------|
+| san-miniato | San Miniato al Monte | from 1018; façade 12th c. | architecture | italy |
+| florence-baptistery | Florence Baptistery | 1059–c. 1150 | architecture | italy |
+| pisa-cathedral | Pisa Cathedral | begun 1063 | architecture | italy |
+| st-marks | St Mark's, Venice | rebuilt from 1063 | architecture | italy |
+| sant-ambrogio | Sant'Ambrogio, Milan | rebuilt c. 1080–1140 | architecture | italy |
+| wiligelmo | Wiligelmo | fl. c. 1099–1110 | sculpture | italy |
+| lanfranco | Lanfranco | fl. c. 1099–1110 | architecture | italy |
+| rainer-huy | Rainer of Huy | fl. c. 1107–1118 | sculpture | north |
+| gislebertus | Gislebertus | fl. c. 1120–1135 | sculpture | france (context) |
+| nicholaus | Nicholaus | fl. 1135–1139 | sculpture | italy |
+| saint-denis | Saint-Denis | Suger’s choir 1140–44 | architecture | france (context) |
+| chartres-west | Chartres west façade | c. 1145–1155 | sculpture | france (context) |
+| hildegard | Hildegard of Bingen | 1098–1179 | music | empire (context) |
+| diotisalvi | Diotisalvi | fl. from 1152 | architecture | italy |
+| pisa-tower | Leaning Tower of Pisa | begun 1173 | architecture | italy |
+| bonanno | Bonanno Pisano | fl. c. 1170–1186 | sculpture | italy |
+| nicholas-verdun | Nicholas of Verdun | fl. 1181–1205 | sculpture | north |
+| antelami | Benedetto Antelami | c. 1150–1230 | sculpture | italy |
+| monreale | Monreale Cathedral | begun 1174 | architecture | italy |
+| hugo-oignies | Hugo d'Oignies | c. 1187–c. 1240 | sculpture | north |
+| giunta | Giunta Pisano | fl. c. 1236–1254 | painting | italy |
+| berlinghiero | Berlinghiero | fl. 1228 | painting | italy |
+| bonaventura | Bonaventura Berlinghieri | fl. 1235 | painting | italy |
+| bigallo-master | Master of the Bigallo Crucifix | mid-13th c. | painting | italy |
 
 ## NEW artists (verified birth ≤1454)
 

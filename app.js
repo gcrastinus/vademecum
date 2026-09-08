@@ -1,12 +1,32 @@
 const DATA = {
   "title": "Vademecum of the arts",
-  "span": "1250–1510",
+  "span": "1050–1510",
   "subtitle": "Painting, sculpture, architecture, and music",
   "years": {
-    "start": 1140,
+    "start": 1040,
     "end": 1520
   },
   "decades": [
+    1050,
+    1060,
+    1070,
+    1080,
+    1090,
+    1100,
+    1110,
+    1120,
+    1130,
+    1140,
+    1150,
+    1160,
+    1170,
+    1180,
+    1190,
+    1200,
+    1210,
+    1220,
+    1230,
+    1240,
     1250,
     1260,
     1270,
@@ -64,9 +84,1470 @@ const DATA = {
   ],
   "artists": [
     {
+      "id": "san-miniato",
+      "name": "San Miniato al Monte",
+      "nameFull": "San Miniato al Monte",
+      "dates": "from 1018; façade 12th c.",
+      "born": 1050,
+      "died": 1207,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "san-miniato-wiki-san-miniato-al-monte-exterior-florencia-",
+      "vasari": null,
+      "works": [
+        {
+          "id": "san-miniato-wiki-san-miniato-al-monte-exterior-florencia-",
+          "title": "San Miniato al Monte, façade",
+          "date": "c. 1090",
+          "year": 1090,
+          "place": "Florence",
+          "file": "images/san-miniato-san-miniato-al-monte-exterior-florencia-italia-2.jpg",
+          "w": 1280,
+          "h": 940
+        },
+        {
+          "id": "san-miniato-wiki-san-miniato-al-monte-florence-italy",
+          "title": "Interior of the church",
+          "date": "c. 1090",
+          "year": 1090,
+          "place": "Florence",
+          "file": "images/san-miniato-san-miniato-al-monte-florence-italy.jpg",
+          "w": 1087,
+          "h": 1600
+        },
+        {
+          "id": "san-miniato-wiki-san-miniato-intarsio-dei-12-segni-zodiac",
+          "title": "Zodiac detail, from the opus sectile pavement in San Miniato",
+          "date": "c. 1090",
+          "year": 1090,
+          "place": "Florence",
+          "file": "images/san-miniato-san-miniato-intarsio-dei-12-segni-zodiacali-06.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "san-miniato-wiki-miniatomoasicfirenze",
+          "title": "Apse mosaic: Christ and Saint Miniato",
+          "date": "c. 1090",
+          "year": 1090,
+          "place": "Florence",
+          "file": "images/san-miniato-miniatomoasicfirenze.jpg",
+          "w": 1280,
+          "h": 960
+        }
+      ]
+    },
+    {
+      "id": "sant-ambrogio",
+      "name": "Sant'Ambrogio, Milan",
+      "nameFull": "Basilica of Sant'Ambrogio",
+      "dates": "rebuilt c. 1080–1140",
+      "born": 1080,
+      "died": 1140,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Milan",
+      "famous": "sant-ambrogio-wiki-san-ambrosio-00",
+      "vasari": null,
+      "works": [
+        {
+          "id": "sant-ambrogio-wiki-san-ambrosio-00",
+          "title": "Sant'Ambrogio, Milan",
+          "date": "c. 1110",
+          "year": 1110,
+          "place": "Milan",
+          "file": "images/sant-ambrogio-san-ambrosio-00.jpg",
+          "w": 1280,
+          "h": 1056
+        },
+        {
+          "id": "sant-ambrogio-wiki-sant-ambrogio-milan-atrium",
+          "title": "Atrium",
+          "date": "c. 1110",
+          "year": 1110,
+          "place": "Milan",
+          "file": "images/sant-ambrogio-sant-ambrogio-milan-atrium.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "sant-ambrogio-wiki-il-redentore-tra-i-ss-gervasio-e-protasi",
+          "title": "Christ with Saints Gervasius and Protasius",
+          "date": "c. 1110",
+          "year": 1110,
+          "place": "Milan",
+          "file": "images/sant-ambrogio-il-redentore-tra-i-ss-gervasio-e-protasio-iv-vii.jpg",
+          "w": 1280,
+          "h": 721
+        },
+        {
+          "id": "sant-ambrogio-wiki-0039-milano-sant-ambrogio-campanile-dei-",
+          "title": "Canons' bell tower",
+          "date": "c. 1110",
+          "year": 1110,
+          "place": "Milan",
+          "file": "images/sant-ambrogio-0039-milano-sant-ambrogio-campanile-dei-canonici.jpg",
+          "w": 1062,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "pisa-cathedral",
+      "name": "Pisa Cathedral",
+      "nameFull": "Cathedral of Santa Maria Assunta, Pisa",
+      "dates": "begun 1063",
+      "born": 1063,
+      "died": 1180,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Pisa",
+      "famous": "pisa-cathedral-wiki-pisa-cattedrale-da-battistero-02",
+      "vasari": null,
+      "works": [
+        {
+          "id": "pisa-cathedral-wiki-pisa-cattedrale-da-battistero-02",
+          "title": "Pisa Cathedral from the Baptistery",
+          "date": "c. 1118",
+          "year": 1118,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-pisa-cattedrale-da-battistero-02.jpg",
+          "w": 1280,
+          "h": 1052
+        },
+        {
+          "id": "pisa-cathedral-wiki-duomo-di-pisa-3",
+          "title": "Pisa Cathedral",
+          "date": "c. 1118",
+          "year": 1118,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-duomo-di-pisa-3.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "pisa-cathedral-wiki-battistero-di-san-giovanni-cattedrale-me",
+          "title": "Cathedral and Baptistery",
+          "date": "c. 1118",
+          "year": 1118,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-battistero-di-san-giovanni-cattedrale-metropolit.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "pisa-cathedral-wiki-pisa-duomo",
+          "title": "Pisa Cathedral",
+          "date": "c. 1118",
+          "year": 1118,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-pisa-duomo.jpg",
+          "w": 1280,
+          "h": 682
+        },
+        {
+          "id": "pisa-cathedral-wiki-cattedrale-santa-maria-assunta-pisa-deta",
+          "title": "Façade, detail",
+          "date": "c. 1118",
+          "year": 1118,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-cattedrale-santa-maria-assunta-pisa-detail.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "pisa-cathedral-wiki-pisa-cathedral-facade-1052",
+          "title": "West façade",
+          "date": "c. 1052",
+          "year": 1052,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-pisa-cathedral-facade-1052.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "pisa-cathedral-wiki-pisa-cathedral-door-of-st-ranier",
+          "title": "San Ranieri door",
+          "date": "c. 1118",
+          "year": 1118,
+          "place": "Pisa",
+          "file": "images/pisa-cathedral-pisa-cathedral-door-of-st-ranier.jpg",
+          "w": 1280,
+          "h": 1574
+        }
+      ]
+    },
+    {
+      "id": "st-marks",
+      "name": "St Mark's, Venice",
+      "nameFull": "St Mark's Basilica",
+      "dates": "rebuilt from 1063",
+      "born": 1063,
+      "died": 1094,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Venice",
+      "famous": "st-marks-wiki-venezia-basilica-di-san-marco-fassade-2",
+      "vasari": null,
+      "works": [
+        {
+          "id": "st-marks-wiki-venezia-basilica-di-san-marco-fassade-2",
+          "title": "St Mark's, west façade",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-venezia-basilica-di-san-marco-fassade-2.jpg",
+          "w": 1280,
+          "h": 858
+        },
+        {
+          "id": "st-marks-wiki-st-marks-basilica-ceiling-2-7236759984",
+          "title": "Central nave looking east",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-st-marks-basilica-ceiling-2-7236759984.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "st-marks-wiki-saint-mark-s-basilica-inside",
+          "title": "Narthex entry (Participazio church)",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-saint-mark-s-basilica-inside.jpg",
+          "w": 1280,
+          "h": 1397
+        },
+        {
+          "id": "st-marks-wiki-south-west-corner-saint-mark-s-basilica",
+          "title": "The juncture of the southern and western crossarms, showing the original brickwork and the subsequent…",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-south-west-corner-saint-mark-s-basilica.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "st-marks-wiki-interior-de-la-bas-lica-de-sant-marc-de-",
+          "title": "The lateral aisle of the western crossarm, showing the arcade that strengthens the vault and the walkways…",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-interior-de-la-bas-lica-de-sant-marc-de-ven-cia.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "st-marks-wiki-bas-lica-de-s-marcos-detalhe-483062853",
+          "title": "Western façade",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-bas-lica-de-s-marcos-detalhe-483062853.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "st-marks-wiki-venezia-basilica-di-san-marco-innen-quad",
+          "title": "Horses of Saint Mark (interior)",
+          "date": "c. 1085",
+          "year": 1085,
+          "place": "Venice",
+          "file": "images/st-marks-venezia-basilica-di-san-marco-innen-quadriga-2.jpg",
+          "w": 1280,
+          "h": 923
+        }
+      ]
+    },
+    {
+      "id": "florence-baptistery",
+      "name": "Florence Baptistery",
+      "nameFull": "Baptistery of San Giovanni, Florence",
+      "dates": "consecrated 1059; lantern c. 1150",
+      "born": 1059,
+      "died": 1150,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "florence-baptistery-wiki-baptistery-florence",
+      "vasari": null,
+      "works": [
+        {
+          "id": "florence-baptistery-wiki-baptistery-florence",
+          "title": "Baptistery of San Giovanni",
+          "date": "c. 1100",
+          "year": 1100,
+          "place": "Florence",
+          "file": "images/florence-baptistery-baptistery-florence.jpg",
+          "w": 1280,
+          "h": 1049
+        },
+        {
+          "id": "florence-baptistery-wiki-int-rieur-baptist-re-san-giovanni-floren",
+          "title": "Baptistery interior",
+          "date": "c. 1100",
+          "year": 1100,
+          "place": "Florence",
+          "file": "images/florence-baptistery-int-rieur-baptist-re-san-giovanni-florence-it52-.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "florence-baptistery-wiki-int-rieur-baptist-re-san-giovanni-floren",
+          "title": "Baptistery interior",
+          "date": "c. 1100",
+          "year": 1100,
+          "place": "Florence",
+          "file": "images/florence-baptistery-int-rieur-baptist-re-san-giovanni-florence-it52--2.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "florence-baptistery-wiki-south-facade-of-baptistery-detail-march-",
+          "title": "South façade, detail",
+          "date": "c. 1100",
+          "year": 1100,
+          "place": "Florence",
+          "file": "images/florence-baptistery-south-facade-of-baptistery-detail-march-2022.jpg",
+          "w": 1280,
+          "h": 1555
+        },
+        {
+          "id": "florence-baptistery-wiki-laterne-auf-dem-baptisterium-san-giovann",
+          "title": "Lantern, completed c. 1150",
+          "date": "c. 1150",
+          "year": 1150,
+          "place": "Florence",
+          "file": "images/florence-baptistery-laterne-auf-dem-baptisterium-san-giovanni-floren.jpg",
+          "w": 1163,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "wiligelmo",
+      "name": "Wiligelmo",
+      "nameFull": "Wiligelmo",
+      "dates": "fl. c. 1099–1110",
+      "born": 1070,
+      "died": 1115,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Modena",
+      "famous": "wiligelmo-wiki-modena3",
+      "vasari": null,
+      "works": [
+        {
+          "id": "wiligelmo-wiki-modena-cathedral-duomo-exterior",
+          "title": "Modena Cathedral, west façade",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-modena-cathedral-duomo-exterior.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "wiligelmo-wiki-modena3",
+          "title": "Adam and Eve, west façade",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-modena3.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "wiligelmo-wiki-wiligelmo-pannello-4",
+          "title": "Cain, Lamech, and Noah, west façade",
+          "date": "c. 1100",
+          "year": 1100,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-wiligelmo-pannello-4.jpg",
+          "w": 1280,
+          "h": 534
+        },
+        {
+          "id": "wiligelmo-wiki-modena-cathedral-north-portal-archivolt-",
+          "title": "Porta della Pescheria",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-modena-cathedral-north-portal-archivolt-and-lint.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "wiligelmo-wiki-modena-2013-009",
+          "title": "West façade sculpture, Modena Cathedral",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-modena-2013-009.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "wiligelmo-wiki-decorazione-portale-centrale-profeta",
+          "title": "Prophet, central portal",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-decorazione-portale-centrale-profeta.jpg",
+          "w": 1063,
+          "h": 1600
+        },
+        {
+          "id": "wiligelmo-wiki-wiligelmo-telamone-1099-1106-01",
+          "title": "Telamon, 1099–1106",
+          "date": "c. 1099",
+          "year": 1099,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-wiligelmo-telamone-1099-1106-01.jpg",
+          "w": 761,
+          "h": 1600
+        },
+        {
+          "id": "wiligelmo-wiki-wiligelmo-telamone-1099-1106-02",
+          "title": "Telamon, 1099–1106",
+          "date": "c. 1099",
+          "year": 1099,
+          "place": "Modena, Cathedral",
+          "file": "images/wiligelmo-wiligelmo-telamone-1099-1106-02.jpg",
+          "w": 694,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "lanfranco",
+      "name": "Lanfranco",
+      "nameFull": "Lanfranco",
+      "dates": "fl. c. 1099–1110",
+      "born": 1065,
+      "died": 1115,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Modena",
+      "famous": "lanfranco-wiki-modena-cathedral-outside",
+      "vasari": null,
+      "works": [
+        {
+          "id": "lanfranco-wiki-modena-cathedral-outside",
+          "title": "Apse inscription naming Lanfranco",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena",
+          "file": "images/lanfranco-modena-cathedral-outside.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "lanfranco-wiki-modena-cathedral-inside",
+          "title": "Modena Cathedral, interior",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena",
+          "file": "images/lanfranco-modena-cathedral-inside.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "lanfranco-wiki-modena-cathedral-north-portal-archivolt-",
+          "title": "Porta della Pescheria",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena",
+          "file": "images/lanfranco-modena-cathedral-north-portal-archivolt-and-lint.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "lanfranco-wiki-modena-cathedral-inside3",
+          "title": "Modena Cathedral, interior",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena",
+          "file": "images/lanfranco-modena-cathedral-inside3.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "lanfranco-wiki-modena-cathedral-inside2",
+          "title": "Modena Cathedral, nave",
+          "date": "c. 1106",
+          "year": 1106,
+          "place": "Modena",
+          "file": "images/lanfranco-modena-cathedral-inside2.jpg",
+          "w": 1280,
+          "h": 960
+        }
+      ]
+    },
+    {
+      "id": "rainer-huy",
+      "name": "Rainer of Huy",
+      "nameFull": "Rainer of Huy",
+      "dates": "fl. c. 1107–1118",
+      "born": 1080,
+      "died": 1120,
+      "medium": "sculpture",
+      "region": "north",
+      "place": "Liège",
+      "famous": "rainer-huy-wiki-renier-de-huy-jpg0",
+      "vasari": null,
+      "works": [
+        {
+          "id": "rainer-huy-wiki-renier-de-huy-jpg0",
+          "title": "Baptism of Christ, font of Saint-Barthélemy, Liège",
+          "date": "c. 1110",
+          "year": 1110,
+          "place": "Liège, Saint-Barthélemy",
+          "file": "images/rainer-huy-renier-de-huy-jpg0.jpg",
+          "w": 1280,
+          "h": 837
+        },
+        {
+          "id": "rainer-huy-wiki-renier-de-huy-mcl1",
+          "title": "Another view of the font",
+          "date": "c. 1110",
+          "year": 1110,
+          "place": "Liège, Saint-Barthélemy",
+          "file": "images/rainer-huy-renier-de-huy-mcl1.jpg",
+          "w": 1280,
+          "h": 1088
+        }
+      ]
+    },
+    {
+      "id": "gislebertus",
+      "name": "Gislebertus",
+      "nameFull": "Gislebertus",
+      "dates": "fl. c. 1120–1135",
+      "born": 1090,
+      "died": 1140,
+      "medium": "sculpture",
+      "region": "france",
+      "place": "Autun",
+      "famous": "gislebertus-wiki-autun-cath-drale-saint-lazare-portail-pr",
+      "vasari": null,
+      "works": [
+        {
+          "id": "gislebertus-wiki-autun-cath-drale-saint-lazare-portail-pr",
+          "title": "Last Judgment by Gislebertus in the west tympanum at the Autun Cathedral",
+          "date": "c. 1130",
+          "year": 1130,
+          "place": "Autun, Saint-Lazare",
+          "file": "images/gislebertus-autun-cath-drale-saint-lazare-portail-principal-.jpg",
+          "w": 1280,
+          "h": 914
+        },
+        {
+          "id": "gislebertus-wiki-autun-mus-e-rolin-tentation-d-ve",
+          "title": "Temptation of Eve, Musée Rolin",
+          "date": "c. 1130",
+          "year": 1130,
+          "place": "Autun, Saint-Lazare",
+          "file": "images/gislebertus-autun-mus-e-rolin-tentation-d-ve.jpg",
+          "w": 1280,
+          "h": 764
+        }
+      ]
+    },
+    {
+      "id": "nicholaus",
+      "name": "Nicholaus",
+      "nameFull": "Nicholaus",
+      "dates": "fl. 1135–1139",
+      "born": 1100,
+      "died": 1150,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Ferrara / Verona",
+      "famous": "nicholaus-wiki-ferrara-duomo-nicholaus-lunetta-03",
+      "vasari": null,
+      "works": [
+        {
+          "id": "nicholaus-wiki-ferrara-duomo-nicholaus-lunetta-03",
+          "title": "West portal lunette",
+          "date": "c. 1135",
+          "year": 1135,
+          "place": "Ferrara, Cathedral",
+          "file": "images/nicholaus-ferrara-duomo-nicholaus-lunetta-03.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "nicholaus-wiki-ferrara-duomo-nicholaus-leone-02",
+          "title": "Lion supporting the porch",
+          "date": "c. 1135",
+          "year": 1135,
+          "place": "Ferrara, Cathedral",
+          "file": "images/nicholaus-ferrara-duomo-nicholaus-leone-02.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "nicholaus-wiki-ferrara-duomo-nicholaus-telamone",
+          "title": "Telamon, west portal",
+          "date": "c. 1135",
+          "year": 1135,
+          "place": "Ferrara, Cathedral",
+          "file": "images/nicholaus-ferrara-duomo-nicholaus-telamone.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "nicholaus-wiki-ferrara-duomo-nicholaus-stipiti-04",
+          "title": "Door jamb reliefs",
+          "date": "c. 1135",
+          "year": 1135,
+          "place": "Ferrara, Cathedral",
+          "file": "images/nicholaus-ferrara-duomo-nicholaus-stipiti-04.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "nicholaus-wiki-basilica-di-san-zeno-protiro-lunetta-di-",
+          "title": "San Zeno receiving the city’s homage",
+          "date": "c. 1138",
+          "year": 1138,
+          "place": "Verona, San Zeno",
+          "file": "images/nicholaus-basilica-di-san-zeno-protiro-lunetta-di-nicholau.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "nicholaus-wiki-basilica-di-san-zeno-protiro-lunetta-di-",
+          "title": "Porch lunette, San Zeno",
+          "date": "c. 1138",
+          "year": 1138,
+          "place": "Verona, San Zeno",
+          "file": "images/nicholaus-basilica-di-san-zeno-protiro-lunetta-di-nicholau-2.jpg",
+          "w": 1280,
+          "h": 960
+        }
+      ]
+    },
+    {
+      "id": "saint-denis",
+      "name": "Saint-Denis",
+      "nameFull": "Basilica of Saint-Denis",
+      "dates": "Suger's choir 1140–44",
+      "born": 1135,
+      "died": 1144,
+      "medium": "architecture",
+      "region": "france",
+      "place": "Saint-Denis",
+      "famous": "saint-denis-wiki-saint-denis-fa-ade",
+      "vasari": null,
+      "works": [
+        {
+          "id": "saint-denis-wiki-saint-denis-fa-ade",
+          "title": "West façade",
+          "date": "c. 1140",
+          "year": 1140,
+          "place": "Saint-Denis",
+          "file": "images/saint-denis-saint-denis-fa-ade.jpg",
+          "w": 1056,
+          "h": 1600
+        },
+        {
+          "id": "saint-denis-wiki-basilique-saint-denis-verri-re-de-l-arbr",
+          "title": "Jesse Tree window (Abbot Suger)",
+          "date": "c. 1140",
+          "year": 1140,
+          "place": "Saint-Denis",
+          "file": "images/saint-denis-basilique-saint-denis-verri-re-de-l-arbre-de-jes.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "saint-denis-wiki-a-vault-in-ambulatory-at-saint-denis",
+          "title": "Suger's ambulatory",
+          "date": "c. 1140",
+          "year": 1140,
+          "place": "Saint-Denis",
+          "file": "images/saint-denis-a-vault-in-ambulatory-at-saint-denis.jpg",
+          "w": 1197,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "chartres-west",
+      "name": "Chartres west façade",
+      "nameFull": "Chartres Cathedral, Royal Portal",
+      "dates": "c. 1145–1155",
+      "born": 1145,
+      "died": 1155,
+      "medium": "sculpture",
+      "region": "france",
+      "place": "Chartres",
+      "famous": "chartres-west-wiki-chartres-portail-royal-tympan-central",
+      "vasari": null,
+      "works": [
+        {
+          "id": "chartres-west-wiki-chartres-portail-royal-tympan-central",
+          "title": "Royal Portal, central tympanum",
+          "date": "c. 1150",
+          "year": 1150,
+          "place": "Chartres, Cathedral",
+          "file": "images/chartres-west-chartres-portail-royal-tympan-central.jpg",
+          "w": 1280,
+          "h": 969
+        },
+        {
+          "id": "chartres-west-wiki-chartres-cathedral-royal-portal-statues-",
+          "title": "Royal Portal, jamb statues",
+          "date": "c. 1150",
+          "year": 1150,
+          "place": "Chartres, Cathedral",
+          "file": "images/chartres-west-chartres-cathedral-royal-portal-statues-2-2007-0.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "chartres-west-wiki-chartres-westportal-monatsbilder",
+          "title": "Royal Portal, labours of the months",
+          "date": "c. 1150",
+          "year": 1150,
+          "place": "Chartres, Cathedral",
+          "file": "images/chartres-west-chartres-westportal-monatsbilder.jpg",
+          "w": 1280,
+          "h": 1120
+        },
+        {
+          "id": "chartres-west-wiki-portail-de-la-cath-drale-de-chartres",
+          "title": "West portal, Chartres Cathedral",
+          "date": "c. 1150",
+          "year": 1150,
+          "place": "Chartres, Cathedral",
+          "file": "images/chartres-west-portail-de-la-cath-drale-de-chartres.jpg",
+          "w": 1280,
+          "h": 960
+        }
+      ]
+    },
+    {
+      "id": "diotisalvi",
+      "name": "Diotisalvi",
+      "nameFull": "Diotisalvi",
+      "dates": "fl. from 1152",
+      "born": 1120,
+      "died": 1180,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Pisa",
+      "famous": "diotisalvi-wiki-santo-sepolcro-pisa-iscrizione-diotisalv",
+      "vasari": null,
+      "works": [
+        {
+          "id": "diotisalvi-wiki-santo-sepolcro-pisa-iscrizione-diotisalv",
+          "title": "Inscription of Diotisalvi, Santo Sepolcro",
+          "date": "c. 1153",
+          "year": 1153,
+          "place": "Pisa, Baptistery",
+          "file": "images/diotisalvi-santo-sepolcro-pisa-iscrizione-diotisalvi.jpg",
+          "w": 1280,
+          "h": 471
+        },
+        {
+          "id": "diotisalvi-wiki-cappella-di-sant-agata-01",
+          "title": "Chapel of Sant’Agata, Pisa",
+          "date": "c. 1153",
+          "year": 1153,
+          "place": "Pisa, Baptistery",
+          "file": "images/diotisalvi-cappella-di-sant-agata-01.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "diotisalvi-wiki-pise-coupole-de-l-glise-du-saint-s-pulcr",
+          "title": "Dome of Santo Sepolcro, Pisa",
+          "date": "c. 1153",
+          "year": 1153,
+          "place": "Pisa, Baptistery",
+          "file": "images/diotisalvi-pise-coupole-de-l-glise-du-saint-s-pulcre.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "diotisalvi-wiki-pisabaptistry20020323-rectilinear",
+          "title": "Pisa Baptistery",
+          "date": "c. 1153",
+          "year": 1153,
+          "place": "Pisa, Baptistery",
+          "file": "images/diotisalvi-pisabaptistry20020323-rectilinear.jpg",
+          "w": 1088,
+          "h": 1588
+        },
+        {
+          "id": "diotisalvi-wiki-dome-interior-baptistry-pisa-2014",
+          "title": "Pisa Baptistery, interior of the dome",
+          "date": "c. 1153",
+          "year": 1153,
+          "place": "Pisa, Baptistery",
+          "file": "images/diotisalvi-dome-interior-baptistry-pisa-2014.jpg",
+          "w": 1280,
+          "h": 853
+        }
+      ]
+    },
+    {
+      "id": "pisa-tower",
+      "name": "Leaning Tower of Pisa",
+      "nameFull": "Leaning Tower of Pisa",
+      "dates": "begun 1173",
+      "born": 1173,
+      "died": 1278,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Pisa",
+      "famous": "pisa-tower-wiki-italy-pisa-leaning-tower",
+      "vasari": null,
+      "works": [
+        {
+          "id": "pisa-tower-wiki-italy-pisa-leaning-tower",
+          "title": "Leaning Tower of Pisa",
+          "date": "c. 1178",
+          "year": 1178,
+          "place": "Pisa",
+          "file": "images/pisa-tower-italy-pisa-leaning-tower.jpg",
+          "w": 1147,
+          "h": 1600
+        },
+        {
+          "id": "pisa-tower-wiki-leaning-tower-of-pisa-capital-of-column-",
+          "title": "Leaning tower of Pisa - capital of column at the top",
+          "date": "c. 1178",
+          "year": 1178,
+          "place": "Pisa",
+          "file": "images/pisa-tower-leaning-tower-of-pisa-capital-of-column-at-the-t.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "pisa-tower-wiki-torre-di-pisa-capitello-con-scimmiette",
+          "title": "Torre di pisa, capitello con scimmiette",
+          "date": "c. 1178",
+          "year": 1178,
+          "place": "Pisa",
+          "file": "images/pisa-tower-torre-di-pisa-capitello-con-scimmiette.jpg",
+          "w": 1280,
+          "h": 1525
+        },
+        {
+          "id": "pisa-tower-wiki-pisa-torre-02",
+          "title": "Pisa. Torre 02",
+          "date": "c. 1178",
+          "year": 1178,
+          "place": "Pisa",
+          "file": "images/pisa-tower-pisa-torre-02.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "pisa-tower-wiki-pisa-torre-01",
+          "title": "Pisa. Torre 01",
+          "date": "c. 1178",
+          "year": 1178,
+          "place": "Pisa",
+          "file": "images/pisa-tower-pisa-torre-01.jpg",
+          "w": 1067,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "bonanno",
+      "name": "Bonanno Pisano",
+      "nameFull": "Bonanno Pisano",
+      "dates": "fl. c. 1170–1186",
+      "born": 1130,
+      "died": 1190,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Pisa",
+      "famous": "bonanno-wiki-pisa-cathedral-door-of-st-ranier-by-bona",
+      "vasari": null,
+      "works": [
+        {
+          "id": "bonanno-wiki-pisa-cathedral-door-of-st-ranier-by-bona",
+          "title": "Detail of the San Ranieri gate at Pisa cathedral",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Pisa, Cathedral",
+          "file": "images/bonanno-pisa-cathedral-door-of-st-ranier-by-bonanno-pisa.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "bonanno-wiki-pisa-cathedral-door-of-st-ranier",
+          "title": "San Ranieri door, Pisa Cathedral",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Pisa, Cathedral",
+          "file": "images/bonanno-pisa-cathedral-door-of-st-ranier.jpg",
+          "w": 1280,
+          "h": 1574
+        },
+        {
+          "id": "bonanno-wiki-pisa-cathedral-door-of-st-ranier-bonanno",
+          "title": "Pisa cathedral, door of St Ranier, Bonanno Pisano, late 12th ct., detail",
+          "date": "c. 1150",
+          "year": 1150,
+          "place": "Pisa, Cathedral",
+          "file": "images/bonanno-pisa-cathedral-door-of-st-ranier-bonanno-pisano-.jpg",
+          "w": 703,
+          "h": 1600
+        },
+        {
+          "id": "bonanno-wiki-main-bronze-door-cathedral-of-monreale-i",
+          "title": "Main bronze door - Cathedral of Monreale - Italy 2015",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Pisa, Cathedral",
+          "file": "images/bonanno-main-bronze-door-cathedral-of-monreale-italy-201.jpg",
+          "w": 1008,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "nicholas-verdun",
+      "name": "Nicholas of Verdun",
+      "nameFull": "Nicholas of Verdun",
+      "dates": "fl. 1181–1205",
+      "born": 1130,
+      "died": 1205,
+      "medium": "sculpture",
+      "region": "north",
+      "place": "Meuse / Cologne",
+      "famous": "nicholas-verdun-wiki-cologne-cathedral-shrine-of-magi",
+      "vasari": null,
+      "works": [
+        {
+          "id": "nicholas-verdun-wiki-cologne-cathedral-shrine-of-magi",
+          "title": "Shrine of the Three Kings at Cologne Cathedral",
+          "date": "c. 1181",
+          "year": 1181,
+          "place": "Klosterneuburg / Cologne",
+          "file": "images/nicholas-verdun-cologne-cathedral-shrine-of-magi.jpg",
+          "w": 759,
+          "h": 523
+        },
+        {
+          "id": "nicholas-verdun-wiki-klosterneuburg-stift-verduner-altar-2",
+          "title": "Verdun altarpiece at Klosterneuburg",
+          "date": "c. 1181",
+          "year": 1181,
+          "place": "Klosterneuburg / Cologne",
+          "file": "images/nicholas-verdun-klosterneuburg-stift-verduner-altar-2.jpg",
+          "w": 1280,
+          "h": 922
+        }
+      ]
+    },
+    {
+      "id": "antelami",
+      "name": "Benedetto Antelami",
+      "nameFull": "Benedetto Antelami",
+      "dates": "c. 1150–1230",
+      "born": 1150,
+      "died": 1230,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Parma",
+      "famous": "antelami-wiki-benedetto-antelami-deposizione-1178-01",
+      "vasari": null,
+      "works": [
+        {
+          "id": "antelami-wiki-benedetto-antelami-deposizione-1178-01",
+          "title": "Deposition from the Cross",
+          "date": "1178",
+          "year": 1178,
+          "place": "Parma, Cathedral",
+          "file": "images/antelami-benedetto-antelami-deposizione-1178-01.jpg",
+          "w": 1280,
+          "h": 625
+        },
+        {
+          "id": "antelami-wiki-milano-castello-sforzesco-bottega-antela",
+          "title": "Three Wise Men, Museo d'Arte Antica in Milan",
+          "date": "c. 1178",
+          "year": 1178,
+          "place": "Parma",
+          "file": "images/antelami-milano-castello-sforzesco-bottega-antelamica-sec.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "antelami-wiki-parma-duomo-descent-of-the-cross",
+          "title": "Deposition from the Cross (full relief)",
+          "date": "1178",
+          "year": 1178,
+          "place": "Parma, Cathedral",
+          "file": "images/antelami-parma-duomo-descent-of-the-cross.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "antelami-wiki-benedetto-antelami-deposizione-1178-02",
+          "title": "Deposition, detail",
+          "date": "1178",
+          "year": 1178,
+          "place": "Parma, Cathedral",
+          "file": "images/antelami-benedetto-antelami-deposizione-1178-02.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "antelami-wiki-parma-battistero-gs-p1010451-c",
+          "title": "Parma Baptistery",
+          "date": "begun 1196",
+          "year": 1196,
+          "place": "Parma",
+          "file": "images/antelami-parma-battistero-gs-p1010451-c.jpg",
+          "w": 1280,
+          "h": 1593
+        },
+        {
+          "id": "antelami-wiki-benedetto-antelami-timpaan-van-madonna-m",
+          "title": "Madonna and Child tympanum",
+          "date": "c. 1196",
+          "year": 1196,
+          "place": "Parma, Baptistery",
+          "file": "images/antelami-benedetto-antelami-timpaan-van-madonna-met-kind-.jpg",
+          "w": 1280,
+          "h": 1096
+        }
+      ]
+    },
+    {
+      "id": "monreale",
+      "name": "Monreale Cathedral",
+      "nameFull": "Cathedral of Monreale",
+      "dates": "begun 1174",
+      "born": 1174,
+      "died": 1189,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Monreale (Sicily)",
+      "famous": "monreale-wiki-die-kathedrale-zeigt-in-besonders-eindru",
+      "vasari": null,
+      "works": [
+        {
+          "id": "monreale-wiki-die-kathedrale-zeigt-in-besonders-eindru",
+          "title": "Monreale Cathedral, exterior",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-die-kathedrale-zeigt-in-besonders-eindrucksvolle.jpg",
+          "w": 1280,
+          "h": 869
+        },
+        {
+          "id": "monreale-wiki-monreale-bw-2012-10-09-10-12-21",
+          "title": "Monreale Cathedral",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-monreale-bw-2012-10-09-10-12-21.jpg",
+          "w": 1280,
+          "h": 852
+        },
+        {
+          "id": "monreale-wiki-monreale-kreuzgang-neu",
+          "title": "Monreale Cathedral, cloister",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-monreale-kreuzgang-neu.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "monreale-wiki-1172-bis-1176-wurde-die-kathedrale-von-m",
+          "title": "Monreale Cathedral, begun 1174",
+          "date": "c. 1172",
+          "year": 1172,
+          "place": "Monreale",
+          "file": "images/monreale-1172-bis-1176-wurde-die-kathedrale-von-monreale-.jpg",
+          "w": 1254,
+          "h": 1600
+        },
+        {
+          "id": "monreale-wiki-monrealecathedral-pjt1",
+          "title": "Monreale Cathedral, west front",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-monrealecathedral-pjt1.jpg",
+          "w": 1280,
+          "h": 886
+        },
+        {
+          "id": "monreale-wiki-6340-quadratmeter-bedecken-die-mosaiken-",
+          "title": "Christ Pantocrator mosaic, Monreale",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-6340-quadratmeter-bedecken-die-mosaiken-in-der-k.jpg",
+          "w": 901,
+          "h": 1600
+        },
+        {
+          "id": "monreale-wiki-6340-quadratmeter-bedecken-die-mosaiken-",
+          "title": "Nave mosaics, Monreale",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-6340-quadratmeter-bedecken-die-mosaiken-in-der-k-2.jpg",
+          "w": 1280,
+          "h": 834
+        },
+        {
+          "id": "monreale-wiki-6340-quadratmeter-bedecken-die-mosaiken-",
+          "title": "Interior mosaics, Monreale",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Monreale",
+          "file": "images/monreale-6340-quadratmeter-bedecken-die-mosaiken-in-der-k-3.jpg",
+          "w": 1280,
+          "h": 1412
+        }
+      ]
+    },
+    {
+      "id": "hugo-oignies",
+      "name": "Hugo d'Oignies",
+      "nameFull": "Hugo d'Oignies",
+      "dates": "c. 1187–c. 1240",
+      "born": 1187,
+      "died": 1240,
+      "medium": "sculpture",
+      "region": "north",
+      "place": "Oignies / Namur",
+      "famous": "hugo-oignies-wiki-hugo-d-oignies",
+      "vasari": null,
+      "works": [
+        {
+          "id": "hugo-oignies-wiki-hugo-d-oignies",
+          "title": "Self-portrait on a silver book cover, 1228–30",
+          "date": "c. 1228",
+          "year": 1228,
+          "place": "Namur, Trésor d'Oignies",
+          "file": "images/hugo-oignies-hugo-d-oignies.jpg",
+          "w": 522,
+          "h": 1195
+        },
+        {
+          "id": "hugo-oignies-wiki-hugo-d-oignies-evangeliary",
+          "title": "Evangeliary cover, 1228–30",
+          "date": "c. 1228",
+          "year": 1228,
+          "place": "Namur, Trésor d'Oignies",
+          "file": "images/hugo-oignies-hugo-d-oignies-evangeliary.jpg",
+          "w": 1127,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "giunta",
+      "name": "Giunta Pisano",
+      "nameFull": "Giunta Pisano",
+      "dates": "fl. c. 1236–1254",
+      "born": 1190,
+      "died": 1260,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Pisa / Bologna",
+      "famous": "giunta-wiki-giunta-pisano-crucifix",
+      "vasari": null,
+      "works": [
+        {
+          "id": "giunta-wiki-giunta-pisano-crucifix",
+          "title": "Crucifix, San Domenico, Bologna (detail)",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Bologna / Assisi",
+          "file": "images/giunta-giunta-pisano-crucifix.jpg",
+          "w": 1280,
+          "h": 1208
+        },
+        {
+          "id": "giunta-wiki-san-domenico39",
+          "title": "San Domenico, Bologna",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Bologna / Assisi",
+          "file": "images/giunta-san-domenico39.jpg",
+          "w": 854,
+          "h": 1026
+        },
+        {
+          "id": "giunta-wiki-giunta-pisano-crusifix",
+          "title": "Crucifix, San Domenico, Bologna",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Bologna / Assisi",
+          "file": "images/giunta-giunta-pisano-crusifix.jpg",
+          "w": 1123,
+          "h": 1600
+        },
+        {
+          "id": "giunta-wiki-giunta-pisano-st-francisc-1260-70-vatica",
+          "title": "Saint Francis, Pinacoteca Vaticana",
+          "date": "c. 1260",
+          "year": 1260,
+          "place": "Bologna / Assisi",
+          "file": "images/giunta-giunta-pisano-st-francisc-1260-70-vatican-pinaco.jpg",
+          "w": 1280,
+          "h": 1002
+        },
+        {
+          "id": "giunta-wiki-giunta-pisano-crucifix-wga09628",
+          "title": "Painted crucifix",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Bologna / Assisi",
+          "file": "images/giunta-giunta-pisano-crucifix-wga09628.jpg",
+          "w": 800,
+          "h": 1066
+        }
+      ]
+    },
+    {
+      "id": "berlinghiero",
+      "name": "Berlinghiero",
+      "nameFull": "Berlinghiero",
+      "dates": "fl. 1228; d. before 1236",
+      "born": 1175,
+      "died": 1236,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Lucca",
+      "famous": "berlinghiero-wiki-berlinghiero-berlinghieri-005",
+      "vasari": null,
+      "works": [
+        {
+          "id": "berlinghiero-wiki-berlinghiero-berlinghieri-005",
+          "title": "Madonna and Child, c. 1230",
+          "date": "c. 1230",
+          "year": 1230,
+          "place": "Lucca",
+          "file": "images/berlinghiero-berlinghiero-berlinghieri-005.jpg",
+          "w": 1117,
+          "h": 1600
+        },
+        {
+          "id": "berlinghiero-wiki-berlinghiero-berlinghieri-001",
+          "title": "Crucifix, c. 1220, Lucca",
+          "date": "c. 1220",
+          "year": 1220,
+          "place": "Lucca",
+          "file": "images/berlinghiero-berlinghiero-berlinghieri-001.jpg",
+          "w": 1256,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "bonaventura",
+      "name": "Bonaventura Berlinghieri",
+      "nameFull": "Bonaventura Berlinghieri",
+      "dates": "fl. 1235",
+      "born": 1210,
+      "died": 1274,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Lucca / Pescia",
+      "famous": "bonaventura-wiki-bonaventura-berlinghieri-francesco",
+      "vasari": null,
+      "works": [
+        {
+          "id": "bonaventura-wiki-bonaventura-berlinghieri-francesco",
+          "title": "Bonaventura Berlinghieri, Saint Francis of Assisi, 1235",
+          "date": "c. 1235",
+          "year": 1235,
+          "place": "Pescia, San Francesco",
+          "file": "images/bonaventura-bonaventura-berlinghieri-francesco.jpg",
+          "w": 969,
+          "h": 1275
+        }
+      ]
+    },
+    {
+      "id": "bigallo-master",
+      "name": "Master of the Bigallo Crucifix",
+      "nameFull": "Master of the Bigallo Crucifix",
+      "dates": "fl. mid-13th c.",
+      "born": 1210,
+      "died": 1270,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "bigallo-master-wiki-palazzo-barberini-maestro-del-bigallo-cr",
+      "vasari": null,
+      "works": [
+        {
+          "id": "bigallo-master-wiki-palazzo-barberini-maestro-del-bigallo-cr",
+          "title": "Cross in the Palazzo Barberini museum, Rome",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Florence",
+          "file": "images/bigallo-master-palazzo-barberini-maestro-del-bigallo-croce-dipi.jpg",
+          "w": 1174,
+          "h": 1600
+        },
+        {
+          "id": "bigallo-master-wiki-maestro-del-bigallo-crocifisso-1250-ca",
+          "title": "The Crucifix at the Museo del Bigallo",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Florence",
+          "file": "images/bigallo-master-maestro-del-bigallo-crocifisso-1250-ca.jpg",
+          "w": 1256,
+          "h": 1600
+        },
+        {
+          "id": "bigallo-master-wiki-maestro-del-bigallo-crocifisso-chicago-a",
+          "title": "The Chicago Crucifix",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Florence",
+          "file": "images/bigallo-master-maestro-del-bigallo-crocifisso-chicago-art-insti.jpg",
+          "w": 1067,
+          "h": 1600
+        }
+      ]
+    },
+    {
+      "id": "hildegard",
+      "name": "Hildegard of Bingen",
+      "nameFull": "Hildegard of Bingen",
+      "dates": "1098–1179",
+      "born": 1098,
+      "died": 1179,
+      "medium": "music",
+      "region": "empire",
+      "place": "Rupertsberg / Bingen",
+      "famous": "hildegard-wiki-hildegard-von-bingen",
+      "vasari": null,
+      "works": [
+        {
+          "id": "hildegard-wiki-hildegard-von-bingen",
+          "title": "Hildegard of Bingen",
+          "date": "c. 1151",
+          "year": 1151,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-hildegard-von-bingen.jpg",
+          "w": 1094,
+          "h": 1600
+        },
+        {
+          "id": "hildegard-wiki-07angels-hildegard-von-bingen",
+          "title": "Scivias I.6: The Choirs of Angels. From the Rupertsberg manuscript, folio 38r",
+          "date": "c. 1151",
+          "year": 1151,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-07angels-hildegard-von-bingen.jpg",
+          "w": 1280,
+          "h": 1500
+        },
+        {
+          "id": "hildegard-wiki-meister-des-hildegardis-codex-004",
+          "title": "The Church, Scivias II.3",
+          "date": "c. 1151",
+          "year": 1151,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-meister-des-hildegardis-codex-004.jpg",
+          "w": 776,
+          "h": 1006
+        },
+        {
+          "id": "hildegard-wiki-hildegard-von-bingen-liber-divinorum-ope",
+          "title": "Hildegard von Bingen Liber Divinorum Operum",
+          "date": "c. 1151",
+          "year": 1151,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-hildegard-von-bingen-liber-divinorum-operum.jpg",
+          "w": 768,
+          "h": 1133
+        },
+        {
+          "id": "hildegard-wiki-riesencodex-fl-0466r",
+          "title": "Page of the Ordo Virtutum from the Wiesbaden Codex, 1180 – 1190",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-riesencodex-fl-0466r.jpg",
+          "w": 998,
+          "h": 1498
+        },
+        {
+          "id": "hildegard-wiki-st-hildegard-von-bingen-writing-lucca-co",
+          "title": "Hildegard writing, Lucca Codex",
+          "date": "c. 1163",
+          "year": 1163,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-st-hildegard-von-bingen-writing-lucca-codex-libe.jpg",
+          "w": 547,
+          "h": 623
+        },
+        {
+          "id": "hildegard-wiki-st-hildegard-von-bingen-receiving-divine",
+          "title": "Hildegard receiving inspiration, Lucca Codex",
+          "date": "c. 1163",
+          "year": 1163,
+          "place": "Rupertsberg",
+          "file": "images/hildegard-st-hildegard-von-bingen-receiving-divine-inspira.jpg",
+          "w": 600,
+          "h": 684
+        },
+        {
+          "id": "hildegard-o-frondens",
+          "title": "O frondens virga",
+          "date": "c. 1150–1175",
+          "year": 1158,
+          "place": "Rupertsberg",
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Hildegard, O frondens virga (human performance)",
+              "url": "https://commons.wikimedia.org/wiki/File:O_frondens.ogg"
+            },
+            {
+              "label": "Wikimedia Commons — Hildegard, O frondens virga (second recording)",
+              "url": "https://commons.wikimedia.org/wiki/File:O_frondens_2.ogg"
+            }
+          ]
+        },
+        {
+          "id": "hildegard-ordo",
+          "title": "Ordo Virtutum",
+          "date": "c. 1151",
+          "year": 1151,
+          "place": "Rupertsberg"
+        },
+        {
+          "id": "hildegard-symphonia",
+          "title": "Symphonia armonie celestium revelationum",
+          "date": "c. 1150–1175",
+          "year": 1160,
+          "place": "Rupertsberg"
+        }
+      ]
+    },
+    {
       "id": "leonin",
       "name": "Léonin",
-      "nameFull": "Léonin (Magister Leoninus)",
+      "nameFull": "Léonin",
       "dates": "fl. c. 1160–1201",
       "born": 1150,
       "died": 1201,
@@ -115,7 +1596,7 @@ const DATA = {
     {
       "id": "cimabue",
       "name": "Cimabue",
-      "nameFull": "Giovanni Cimabue",
+      "nameFull": "Cimabue",
       "dates": "c. 1240–1302",
       "born": 1240,
       "died": 1302,
@@ -125,7 +1606,9 @@ const DATA = {
       "famous": "cimabue-trinita",
       "vasari": {
         "life": "Life of Giovanni Cimabue",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_1",
+        "of": "Cimabue"
       },
       "works": [
         {
@@ -417,7 +1900,7 @@ const DATA = {
     },
     {
       "id": "duccio",
-      "name": "Duccio",
+      "name": "Duccio di Buoninsegna",
       "nameFull": "Duccio di Buoninsegna",
       "dates": "c. 1255–1318/19",
       "born": 1255,
@@ -426,7 +1909,12 @@ const DATA = {
       "region": "italy",
       "place": "Siena",
       "famous": "duccio-maesta-front",
-      "vasari": null,
+      "vasari": {
+        "life": "Life of Duccio",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_7",
+        "of": "Duccio di Buoninsegna"
+      },
       "works": [
         {
           "id": "duccio-rucellai",
@@ -563,7 +2051,7 @@ const DATA = {
     {
       "id": "giotto",
       "name": "Giotto",
-      "nameFull": "Giotto di Bondone",
+      "nameFull": "Giotto",
       "dates": "c. 1267–1337",
       "born": 1267,
       "died": 1337,
@@ -573,7 +2061,9 @@ const DATA = {
       "famous": "giotto-lamentation",
       "vasari": {
         "life": "Life of Giotto",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_69",
+        "of": "Giotto"
       },
       "works": [
         {
@@ -793,7 +2283,9 @@ const DATA = {
         "life": "Life of Pietro Cavallini",
         "text": "LIFE OF PIETRO CAVALLINI,\n\nPAINTER OF ROME\n\nFor many centuries Rome had been deprived not only of fine letters and\nof the glory of arms but also of all the sciences and fine arts, when,\nby the will of God, there was born therein Pietro Cavallini, in those\ntimes when Giotto, having, it may be said, restored painting to life,\nwas holding the sovereignty among the painters in Italy. He, then,\nhaving been a disciple of Giotto and having worked with Giotto himself\non the Navicella in mosaic in S. Pietro, was the first who, after him,\ngave light to that art, and he began to show that he had been no\nunworthy disciple of so great a master when he painted, over the door of\nthe sacristy of the Araceli, some scenes that are to-day eaten away by\ntime, and very many works coloured in fresco throughout the whole Church\nof S. Maria di Trastevere. Afterwards, working in mosaic on the\nprincipal chapel and on the façade of the church, he showed in the\nbeginning of such a work, without the help of Giotto, that he was no\nless able in the execution and bringing to completion of mosaics than he\nwas in painting. Making many scenes in fresco, also, in the Church of S.\nGrisogono, he strove to make himself known both as the best disciple of\nGiotto and as a good craftsman. In like manner, also in Trastevere, he\npainted almost the whole Church of S. Cecilia with his own hand, and\nmany works in the Church of S. Francesco appresso Ripa. He then made the\nfaçade of mosaic in S. Paolo without Rome, and many stories of the Old\nTestament for the central nave. And painting some works in fresco in the\nChapter-house of the first cloister, he put therein so great diligence\nthat he gained thereby from men of judgment the name of being a most\nexcellent master, and was therefore so much favoured by the prelates\nthat they commissioned him to do the inner wall of S. Pietro, between\nthe windows. Between these he made the four Evangelists, wrought very\nwell in fresco, of extraordinary size in comparison with the figures\nthat at that time were customary, with a S. Peter and a S. Paul, and a\ngood number of figures in a ship, wherein, the Greek manner pleasing him\nmuch, he blended it ever with that of Giotto; and since he delighted to\ngive relief to his figures, it is recognized that he used thereunto the\ngreatest efforts that can be imagined by man. But the best work that he\nmade in that city was in the s…",
         "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "PIETRO_CAVALLINI"
+        "key": "PIETRO_CAVALLINI",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_159",
+        "of": "Pietro Cavallini"
       },
       "works": [
         {
@@ -851,7 +2343,7 @@ const DATA = {
     {
       "id": "pietro-lorenzetti",
       "name": "Pietro Lorenzetti",
-      "nameFull": "Pietro Lorenzetti (Pietro Laurati)",
+      "nameFull": "Pietro Lorenzetti",
       "dates": "c. 1280–1348",
       "born": 1280,
       "died": 1348,
@@ -863,7 +2355,9 @@ const DATA = {
         "life": "Life of Pietro Laurati",
         "text": "LIFE OF PIETRO LAURATI\n\n[PIETRO LORENZETTI],\n\nPAINTER OF SIENA\n\nPietro Laurati, an excellent painter of Siena, proved in his life how\ngreat is the contentment of the truly able, who feel that their works\nare prized both at home and abroad, and who see themselves sought after\nby all men, for the reason that in the course of his life he was sent\nfor and held dear throughout all Tuscany, having first become known\nthrough the scenes that he painted in fresco for the Scala, a hospital\nin Siena, wherein he imitated in such wise the manner of Giotto, then\nspread throughout all Tuscany, that it was believed with great reason\nthat he was destined, as afterwards came to pass, to become a better\nmaster than Cimabue and Giotto and the others had been; for the figures\nthat represent the Virgin ascending the steps of the Temple, accompanied\nby Joachim and Anna, and received by the priest, and then in the\nMarriage, are so beautifully adorned, so well draped, and so simply\nwrapped in their garments, that they show majesty in the air of the\nheads, and a most beautiful manner in their bearing. By reason of this\nwork, which was the first introduction into Siena of the good method of\npainting, giving light to the many beautiful intellects which have\nflourished in that city in every age, Pietro was invited to Monte\nOliveto di Chiusuri, where he painted a panel in distemper that is\nplaced to-day in the portico below the church. In Florence, next,\nopposite to the left-hand door of the Church of S. Spirito, on the\ncorner where to-day there is a butcher, he painted a shrine which, by\nreason of the softness of the heads and of the sweetness that is seen in\nit, deserves the highest praise from every discerning craftsman.\n\nGoing from Florence to Pisa, he wrought in the Campo Santo, on the wall\nthat is beside the principal door, all the lives of the Holy Fathers,\nwith expressions so lively and attitudes so beautiful that he equalled\nGiotto and gained thereby very great praise, having expressed in certain\nheads, both with drawing and with colour, all that vivacity that the\nmanner of those times was able to show. From Pisa he went to Pistoia,\nwhere he made a Madonna with some angels round her, very well grouped,\non a panel in distemper, for the Church of S. Francesco; and in the\npredella that ran below this panel, in certain scenes, he made certain\nlittle figures so lively and so vivid that in those times it was\nsomething marvellous; wherefore, since they satisfied himself no less\nthan others, he thought fit to place thereon his name, with these words:\nPETRUS LAURATI DE SENIS.\n\nPIETRO LORENZETTI: MADONNA AND CHILD WITH S.S. FRANCIS\nAND JOHN\n(Assisi: Lower Church of S. Francesco. Fresco)\n\nView larger image…",
         "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "PIETRO_LAURATI"
+        "key": "PIETRO_LAURATI",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_115",
+        "of": "Pietro Lorenzetti"
       },
       "works": [
         {
@@ -981,7 +2475,9 @@ const DATA = {
       "famous": "nicola-pisa",
       "vasari": {
         "life": "Life of Niccola and Giovanni of Pisa",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_27",
+        "of": "Nicola Pisano"
       },
       "works": [
         {
@@ -1094,7 +2590,9 @@ const DATA = {
       "famous": "giovanni-pistoia",
       "vasari": {
         "life": "Life of Niccola and Giovanni of Pisa",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_27",
+        "of": "Giovanni Pisano"
       },
       "works": [
         {
@@ -1192,7 +2690,7 @@ const DATA = {
     {
       "id": "arnolfo",
       "name": "Arnolfo di Cambio",
-      "nameFull": "Arnolfo di Cambio (Arnolfo di Lapo)",
+      "nameFull": "Arnolfo di Cambio",
       "dates": "c. 1240–1302/10",
       "born": 1240,
       "died": 1302,
@@ -1202,7 +2700,9 @@ const DATA = {
       "famous": "palazzo-vecchio",
       "vasari": {
         "life": "Life of Arnolfo di Lapo",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_11",
+        "of": "Arnolfo di Cambio"
       },
       "works": [
         {
@@ -1635,7 +3135,7 @@ const DATA = {
     {
       "id": "simone",
       "name": "Simone Martini",
-      "nameFull": "Simone Martini (Simone Memmi)",
+      "nameFull": "Simone Martini",
       "dates": "c. 1284–1344",
       "born": 1284,
       "died": 1344,
@@ -1645,7 +3145,9 @@ const DATA = {
       "famous": "simone-maesta",
       "vasari": {
         "life": "Life of Simone Sanese",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_165",
+        "of": "Simone Martini"
       },
       "works": [
         {
@@ -1737,8 +3239,8 @@ const DATA = {
     },
     {
       "id": "margaritone",
-      "name": "Margaritone",
-      "nameFull": "Margarito d'Arezzo",
+      "name": "Margaritone d'Arezzo",
+      "nameFull": "Margaritone d'Arezzo",
       "dates": "active c. 1250–1290",
       "born": 1250,
       "died": 1290,
@@ -1750,7 +3252,9 @@ const DATA = {
         "life": "Life of Margaritone",
         "text": "LIFE OF MARGARITONE,\n\nPAINTER, SCULPTOR, AND ARCHITECT, OF AREZZO\n\nAmong the old painters who were much alarmed by the praises rightly\ngiven by men to Cimabue and to his disciple Giotto, whose good work in\npainting was making their glory shine throughout all Italy, was one\nMargaritone, painter of Arezzo, who, with the others who in that unhappy\ncentury were holding the highest rank in painting, recognized that their\nworks were little less than wholly obscuring his own fame. Margaritone,\nthen, being held excellent among the other painters of these times who\nwere working after the Greek manner, wrought many panels in distemper at\nArezzo, and he painted in fresco—in even more pictures, but in a long\ntime and with much fatigue—almost the whole Church of S. Clemente,\nAbbey of the Order of Camaldoli, which is to-day all in ruins and thrown\ndown, together with many other buildings and a strong fortress called S.\nChimenti, for the reason that Duke Cosimo de' Medici, not only on that\nspot but right round that city, pulled down many buildings and the old\nwalls (which were restored by Guido Pietramalesco, formerly Bishop and\nPatron of that city); in order to rebuild the latter with connecting\nwings and bastions, much stronger and smaller than they were, and in\nconsequence more easy to guard and with few men. There were, in the said\npictures, many figures both small and great, and although they were\nwrought after the Greek manner, it was recognized, none the less, that\nthey had been made with good judgment and lovingly; to which witness is\nborne by works by the same man's hand which have survived in that city,\nand above all a panel that is now in S. Francesco, in the Chapel of the\nConception, with a modern frame, wherein is a Madonna held by these\nfriars in great veneration. He made in the same church, also after the\nGreek manner, a great Crucifix which is now placed in that chapel where\nthere is the Office of the Wardens of Works; this is wrought on the\nplanking, with the Cross outlined, and of this sort he made many in that\ncity. For the Nuns of S. Margherita he wrought a work that is to-day set\nup against the tramezzo[9] of the church—namely, a canvas fixed on a\npanel, wherein are scenes with small figures from the life of Our Lady\nand of S. John the Baptist, in considerably better manner than the\nlarge, and executed with more diligence and grace. This work is notabl…",
         "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "MARGARITONE"
+        "key": "MARGARITONE",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_61",
+        "of": "Margaritone d'Arezzo"
       },
       "works": [
         {
@@ -1798,7 +3302,7 @@ const DATA = {
     {
       "id": "andrea-tafi",
       "name": "Andrea Tafi",
-      "nameFull": "Andrea Tafi (and companions)",
+      "nameFull": "Andrea Tafi",
       "dates": "c. 1213–1294",
       "born": 1213,
       "died": 1294,
@@ -1810,7 +3314,9 @@ const DATA = {
         "life": "Life of Andrea Tafi",
         "text": "LIFE OF ANDREA TAFI,\n\nPAINTER OF FLORENCE\n\nEven as the works of Cimabue awakened no small marvel (he having given\nbetter design and form to the art of painting) in the men of those\ntimes, used to seeing nothing save works done after the Greek manner,\neven so the works in mosaic of Andrea Tafi, who lived in the same times,\nwere admired, and he thereby held excellent, nay, divine; these people\nnot thinking, being unused to see anything else, that better work could\nbe done in such an art. But not being in truth the most able man in the\nworld, and having considered that mosaic, by reason of its long life,\nwas held in estimation more than all the other forms of painting, he\nwent from Florence to Venice, where some Greek painters were working in\nS. Marco in mosaic; and becoming intimate with them, with entreaties,\nwith money, and with promises he contrived in such a manner that he\nbrought to Florence Maestro Apollonio, a Greek painter, who taught him\nto fuse the glass for mosaic and to make the cement for putting it\ntogether; and in his company he wrought the upper part of the tribune of\nS. Giovanni, where there are the Powers, the Thrones, and the Dominions;\nin which place Andrea, when more practised, afterwards made, as will be\nsaid below, the Christ that is over the side of the principal chapel.\nBut having made mention of S. Giovanni, I will not pass by in silence\nthat this ancient temple is all wrought, both without and within, with\nmarbles of the Corinthian Order, and that it is not only designed and\nexecuted perfectly in all its parts and with all its proportions, but\nalso very well adorned with doors and with windows, and enriched with\ntwo columns of granite on each wall-face, each eleven braccia high, in\norder to make the three spaces over which are the architraves, that rest\non the said columns in order to support the whole mass of the double\nvaulted roof, which has been praised by modern architects as something\nremarkable, and deservedly, for the reason that it showed the good which\nthat art already had in itself to Filippo di Ser Brunellesco, to\nDonatello, and to the other masters of those times, who learnt the art\nby means of this work and of the Church of S. Apostolo in Florence, a\nwork so good in manner that it casts back to the true ancient goodness,\nhaving all the columns in sections, as it has been said above, measured\nand put together with so gre…",
         "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "ANDREA_TAFI"
+        "key": "ANDREA_TAFI",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_45",
+        "of": "Andrea Tafi"
       },
       "works": [
         {
@@ -2007,7 +3513,7 @@ const DATA = {
     },
     {
       "id": "magdalen-master",
-      "name": "Magdalen Master",
+      "name": "Master of the Magdalen",
       "nameFull": "Master of the Magdalen",
       "dates": "active c. 1265–1290",
       "born": 1265,
@@ -2723,7 +4229,7 @@ const DATA = {
     {
       "id": "perotin",
       "name": "Pérotin",
-      "nameFull": "Pérotin (Perotinus Magnus)",
+      "nameFull": "Pérotin",
       "dates": "fl. c. 1200",
       "born": 1190,
       "died": 1225,
@@ -2894,7 +4400,7 @@ const DATA = {
     {
       "id": "petrus-cruce",
       "name": "Petrus de Cruce",
-      "nameFull": "Petrus de Cruce (Pierre de la Croix)",
+      "nameFull": "Petrus de Cruce",
       "dates": "fl. c. 1290",
       "born": 1270,
       "died": 1302,
@@ -3034,7 +4540,9 @@ const DATA = {
       "famous": "ambrogio-good-government",
       "vasari": {
         "life": "Life of Ambrogio Lorenzetti",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_153",
+        "of": "Ambrogio Lorenzetti"
       },
       "works": [
         {
@@ -3142,7 +4650,9 @@ const DATA = {
       "famous": "taddeo-baroncelli",
       "vasari": {
         "life": "Life of Taddeo Gaddi",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_175",
+        "of": "Taddeo Gaddi"
       },
       "works": [
         {
@@ -3270,7 +4780,7 @@ const DATA = {
     {
       "id": "andrea-pisano",
       "name": "Andrea Pisano",
-      "nameFull": "Andrea Pisano (Andrea da Pontedera)",
+      "nameFull": "Andrea Pisano",
       "dates": "c. 1290–1348",
       "born": 1290,
       "died": 1348,
@@ -3280,7 +4790,9 @@ const DATA = {
       "famous": "andrea-pisano-doors",
       "vasari": {
         "life": "Life of Andrea Pisano",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_121",
+        "of": "Andrea Pisano"
       },
       "works": [
         {
@@ -3463,7 +4975,7 @@ const DATA = {
     {
       "id": "orcagna",
       "name": "Orcagna",
-      "nameFull": "Andrea di Cione (Orcagna)",
+      "nameFull": "Orcagna",
       "dates": "c. 1308–1368",
       "born": 1308,
       "died": 1368,
@@ -3473,7 +4985,9 @@ const DATA = {
       "famous": "orcagna-strozzi",
       "vasari": {
         "life": "Life of Andrea di Cione Orcagna",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_187",
+        "of": "Orcagna"
       },
       "works": [
         {
@@ -3515,7 +5029,7 @@ const DATA = {
     },
     {
       "id": "buffalmacco",
-      "name": "Buffalmacco",
+      "name": "Buonamico Buffalmacco",
       "nameFull": "Buonamico Buffalmacco",
       "dates": "c. 1290 – c. 1340",
       "born": 1290,
@@ -3526,7 +5040,9 @@ const DATA = {
       "famous": "buffalmacco-death",
       "vasari": {
         "life": "Life of Buonamico Buffalmacco",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_133",
+        "of": "Buonamico Buffalmacco"
       },
       "works": [
         {
@@ -3589,7 +5105,9 @@ const DATA = {
       "famous": "agnolo-true-cross",
       "vasari": {
         "life": "Life of Agnolo Gaddi",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_215",
+        "of": "Agnolo Gaddi"
       },
       "works": [
         {
@@ -3657,7 +5175,7 @@ const DATA = {
     {
       "id": "spinello-aretino",
       "name": "Spinello Aretino",
-      "nameFull": "Spinello Aretino (Spinello di Luca Spinelli)",
+      "nameFull": "Spinello Aretino",
       "dates": "c. 1350–1410",
       "born": 1350,
       "died": 1410,
@@ -3667,7 +5185,9 @@ const DATA = {
       "famous": "spinello-san-miniato",
       "vasari": {
         "life": "Life of Spinello Aretino",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_27",
+        "of": "Spinello Aretino"
       },
       "works": [
         {
@@ -3745,7 +5265,7 @@ const DATA = {
     {
       "id": "giottino",
       "name": "Giottino",
-      "nameFull": "Giottino (Tommaso / Maso — contested)",
+      "nameFull": "Giottino",
       "dates": "fl. mid-14th century",
       "born": 1324,
       "died": 1357,
@@ -3755,7 +5275,9 @@ const DATA = {
       "famous": "giottino-pieta",
       "vasari": {
         "life": "Life of Tommaso, called Giottino",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+        "url": "https://www.gutenberg.org/files/25326/25326-h/25326-h.htm#Page_201",
+        "of": "Giottino"
       },
       "works": [
         {
@@ -3787,7 +5309,7 @@ const DATA = {
     },
     {
       "id": "altichiero",
-      "name": "Altichiero",
+      "name": "Altichiero da Zevio",
       "nameFull": "Altichiero da Zevio",
       "dates": "c. 1330–1390",
       "born": 1330,
@@ -3877,7 +5399,7 @@ const DATA = {
     },
     {
       "id": "ciconia",
-      "name": "Ciconia",
+      "name": "Johannes Ciconia",
       "nameFull": "Johannes Ciconia",
       "dates": "c. 1370–1412",
       "born": 1370,
@@ -3990,7 +5512,7 @@ const DATA = {
     },
     {
       "id": "ghiberti",
-      "name": "Ghiberti",
+      "name": "Lorenzo Ghiberti",
       "nameFull": "Lorenzo Ghiberti",
       "dates": "1378–1455",
       "born": 1378,
@@ -4001,7 +5523,9 @@ const DATA = {
       "famous": "ghiberti-paradise",
       "vasari": {
         "life": "Life of Lorenzo Ghiberti",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_141",
+        "of": "Lorenzo Ghiberti"
       },
       "works": [
         {
@@ -4188,7 +5712,7 @@ const DATA = {
     },
     {
       "id": "brunelleschi",
-      "name": "Brunelleschi",
+      "name": "Filippo Brunelleschi",
       "nameFull": "Filippo Brunelleschi",
       "dates": "1377–1446",
       "born": 1377,
@@ -4199,7 +5723,9 @@ const DATA = {
       "famous": "brunelleschi-dome",
       "vasari": {
         "life": "Life of Filippo Brunelleschi",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_193",
+        "of": "Filippo Brunelleschi"
       },
       "works": [
         {
@@ -4387,7 +5913,7 @@ const DATA = {
     {
       "id": "donatello",
       "name": "Donatello",
-      "nameFull": "Donato di Niccolò (Donatello)",
+      "nameFull": "Donatello",
       "dates": "c. 1386–1466",
       "born": 1386,
       "died": 1466,
@@ -4397,7 +5923,9 @@ const DATA = {
       "famous": "donatello-david",
       "vasari": {
         "life": "Life of Donato",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_237",
+        "of": "Donatello"
       },
       "works": [
         {
@@ -4600,7 +6128,7 @@ const DATA = {
     {
       "id": "jacopo-della-quercia",
       "name": "Jacopo della Quercia",
-      "nameFull": "Jacopo della Quercia (Jacopo della Fonte)",
+      "nameFull": "Jacopo della Quercia",
       "dates": "c. 1374–1438",
       "born": 1374,
       "died": 1438,
@@ -4610,7 +6138,9 @@ const DATA = {
       "famous": "quercia-ilaria",
       "vasari": {
         "life": "Life of Jacopo della Quercia",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_89",
+        "of": "Jacopo della Quercia"
       },
       "works": [
         {
@@ -4728,7 +6258,9 @@ const DATA = {
       "famous": "luca-cantoria",
       "vasari": {
         "life": "Life of Luca della Robbia",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_117",
+        "of": "Luca della Robbia"
       },
       "works": [
         {
@@ -4895,8 +6427,8 @@ const DATA = {
     },
     {
       "id": "dunstable",
-      "name": "Dunstable",
-      "nameFull": "John Dunstable (Dunstaple)",
+      "name": "John Dunstable",
+      "nameFull": "John Dunstable",
       "dates": "c. 1390–1453",
       "born": 1390,
       "died": 1453,
@@ -4952,7 +6484,7 @@ const DATA = {
     {
       "id": "masaccio",
       "name": "Masaccio",
-      "nameFull": "Tommaso di Ser Giovanni (Masaccio)",
+      "nameFull": "Masaccio",
       "dates": "1401–1428",
       "born": 1401,
       "died": 1428,
@@ -4962,7 +6494,9 @@ const DATA = {
       "famous": "masaccio-tribute",
       "vasari": {
         "life": "Life of Masaccio",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_181",
+        "of": "Masaccio"
       },
       "works": [
         {
@@ -5084,7 +6618,7 @@ const DATA = {
     },
     {
       "id": "masolino",
-      "name": "Masolino",
+      "name": "Masolino da Panicale",
       "nameFull": "Masolino da Panicale",
       "dates": "c. 1383–1447",
       "born": 1383,
@@ -5095,7 +6629,9 @@ const DATA = {
       "famous": "masolino-temptation",
       "vasari": {
         "life": "Life of Masolino da Panicale",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_163",
+        "of": "Masolino da Panicale"
       },
       "works": [
         {
@@ -5158,7 +6694,7 @@ const DATA = {
     {
       "id": "fra-angelico",
       "name": "Fra Angelico",
-      "nameFull": "Guido di Pietro (Fra Angelico / Fra Giovanni da Fiesole)",
+      "nameFull": "Fra Angelico",
       "dates": "c. 1395–1455",
       "born": 1395,
       "died": 1455,
@@ -5168,7 +6704,9 @@ const DATA = {
       "famous": "fra-angelico-annunciation",
       "vasari": {
         "life": "Life of Fra Giovanni da Fiesole",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_25",
+        "of": "Fra Angelico"
       },
       "works": [
         {
@@ -5340,7 +6878,7 @@ const DATA = {
     },
     {
       "id": "uccello",
-      "name": "Uccello",
+      "name": "Paolo Uccello",
       "nameFull": "Paolo Uccello",
       "dates": "1397–1475",
       "born": 1397,
@@ -5351,7 +6889,9 @@ const DATA = {
       "famous": "uccello-san-romano",
       "vasari": {
         "life": "Life of Paolo Uccello",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_129",
+        "of": "Paolo Uccello"
       },
       "works": [
         {
@@ -5494,7 +7034,9 @@ const DATA = {
       "famous": "gentile-magi",
       "vasari": {
         "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_107",
+        "of": "Gentile da Fabriano"
       },
       "works": [
         {
@@ -5577,7 +7119,7 @@ const DATA = {
     {
       "id": "lorenzo-monaco",
       "name": "Lorenzo Monaco",
-      "nameFull": "Don Lorenzo Monaco",
+      "nameFull": "Lorenzo Monaco",
       "dates": "c. 1370–1425",
       "born": 1370,
       "died": 1425,
@@ -5587,7 +7129,9 @@ const DATA = {
       "famous": "lorenzo-monaco-coronation",
       "vasari": {
         "life": "Life of Don Lorenzo Monaco",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759.",
+        "url": "https://www.gutenberg.org/files/25759/25759-h/25759-h.htm#Page_53",
+        "of": "Lorenzo Monaco"
       },
       "works": [
         {
@@ -5735,7 +7279,7 @@ const DATA = {
     {
       "id": "pisanello",
       "name": "Pisanello",
-      "nameFull": "Antonio di Puccio (Pisanello)",
+      "nameFull": "Pisanello",
       "dates": "c. 1395–1455",
       "born": 1395,
       "died": 1455,
@@ -5745,7 +7289,9 @@ const DATA = {
       "famous": "pisanello-eustace",
       "vasari": {
         "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_107",
+        "of": "Pisanello"
       },
       "works": [
         {
@@ -5943,7 +7489,9 @@ const DATA = {
       "famous": "filippo-lippi-madonna",
       "vasari": {
         "life": "Life of Fra Filippo Lippi",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_77",
+        "of": "Fra Filippo Lippi"
       },
       "works": [
         {
@@ -6106,7 +7654,9 @@ const DATA = {
       "famous": "domenico-veneziano-lucy",
       "vasari": {
         "life": "Lives of Andrea dal Castagno and Domenico Veneziano",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_95",
+        "of": "Domenico Veneziano"
       },
       "works": [
         {
@@ -6244,7 +7794,9 @@ const DATA = {
       "famous": "piero-flagellation",
       "vasari": {
         "life": "Life of Piero della Francesca",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_15",
+        "of": "Piero della Francesca"
       },
       "works": [
         {
@@ -6371,8 +7923,8 @@ const DATA = {
     },
     {
       "id": "busnois",
-      "name": "Busnois",
-      "nameFull": "Antoine Busnois (Busnoys)",
+      "name": "Antoine Busnois",
+      "nameFull": "Antoine Busnois",
       "dates": "c. 1430–1492",
       "born": 1430,
       "died": 1492,
@@ -6432,7 +7984,7 @@ const DATA = {
     },
     {
       "id": "mantegna",
-      "name": "Mantegna",
+      "name": "Andrea Mantegna",
       "nameFull": "Andrea Mantegna",
       "dates": "1431–1506",
       "born": 1431,
@@ -6443,7 +7995,9 @@ const DATA = {
       "famous": "mantegna-dead-christ",
       "vasari": {
         "life": "Life of Andrea Mantegna",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_277",
+        "of": "Andrea Mantegna"
       },
       "works": [
         {
@@ -6580,7 +8134,7 @@ const DATA = {
     },
     {
       "id": "pollaiuolo",
-      "name": "Pollaiuolo",
+      "name": "Antonio del Pollaiuolo",
       "nameFull": "Antonio del Pollaiuolo",
       "dates": "1431–1498",
       "born": 1431,
@@ -6591,7 +8145,9 @@ const DATA = {
       "famous": "pollaiuolo-sebastian",
       "vasari": {
         "life": "Life of Antonio and Piero Pollaiuolo",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_235",
+        "of": "Antonio del Pollaiuolo"
       },
       "works": [
         {
@@ -6773,7 +8329,7 @@ const DATA = {
     },
     {
       "id": "verrocchio",
-      "name": "Verrocchio",
+      "name": "Andrea del Verrocchio",
       "nameFull": "Andrea del Verrocchio",
       "dates": "c. 1435–1488",
       "born": 1435,
@@ -6784,7 +8340,9 @@ const DATA = {
       "famous": "verrocchio-david",
       "vasari": {
         "life": "Life of Andrea Verrocchio",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_265",
+        "of": "Andrea del Verrocchio"
       },
       "works": [
         {
@@ -6911,8 +8469,8 @@ const DATA = {
     },
     {
       "id": "botticelli",
-      "name": "Botticelli",
-      "nameFull": "Sandro Botticelli (Alessandro Filipepi)",
+      "name": "Sandro Botticelli",
+      "nameFull": "Sandro Botticelli",
       "dates": "c. 1445–1510",
       "born": 1445,
       "died": 1510,
@@ -6922,7 +8480,9 @@ const DATA = {
       "famous": "botticelli-venus",
       "vasari": {
         "life": "Life of Sandro Botticelli",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_245",
+        "of": "Sandro Botticelli"
       },
       "works": [
         {
@@ -7109,7 +8669,7 @@ const DATA = {
     },
     {
       "id": "compere",
-      "name": "Compère",
+      "name": "Loyset Compère",
       "nameFull": "Loyset Compère",
       "dates": "c. 1445–1518",
       "born": 1445,
@@ -7161,7 +8721,7 @@ const DATA = {
     },
     {
       "id": "ghirlandaio",
-      "name": "Ghirlandaio",
+      "name": "Domenico Ghirlandaio",
       "nameFull": "Domenico Ghirlandaio",
       "dates": "1449–1494",
       "born": 1449,
@@ -7172,7 +8732,9 @@ const DATA = {
       "famous": "ghirlandaio-birth-virgin",
       "vasari": {
         "life": "Life of Domenico Ghirlandaio",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860.",
+        "url": "https://www.gutenberg.org/files/26860/26860-h/26860-h.htm#Page_217",
+        "of": "Domenico Ghirlandaio"
       },
       "works": [
         {
@@ -7339,8 +8901,8 @@ const DATA = {
     },
     {
       "id": "perugino",
-      "name": "Perugino",
-      "nameFull": "Pietro Perugino (Pietro Vannucci)",
+      "name": "Pietro Perugino",
+      "nameFull": "Pietro Perugino",
       "dates": "c. 1446–1523",
       "born": 1446,
       "died": 1523,
@@ -7350,7 +8912,9 @@ const DATA = {
       "famous": "perugino-keys",
       "vasari": {
         "life": "Life of Pietro Perugino",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420.",
+        "url": "https://www.gutenberg.org/files/28420/28420-h/28420-h.htm#Page_31",
+        "of": "Pietro Perugino"
       },
       "works": [
         {
@@ -7492,7 +9056,7 @@ const DATA = {
     },
     {
       "id": "josquin",
-      "name": "Josquin",
+      "name": "Josquin des Prez",
       "nameFull": "Josquin des Prez",
       "dates": "c. 1450–1521",
       "born": 1450,
@@ -7582,7 +9146,7 @@ const DATA = {
     },
     {
       "id": "leonardo",
-      "name": "Leonardo",
+      "name": "Leonardo da Vinci",
       "nameFull": "Leonardo da Vinci",
       "dates": "1452–1519",
       "born": 1452,
@@ -7593,7 +9157,9 @@ const DATA = {
       "famous": "leonardo-mona-lisa",
       "vasari": {
         "life": "Life of Leonardo da Vinci",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420.",
+        "url": "https://www.gutenberg.org/files/28420/28420-h/28420-h.htm#Page_87",
+        "of": "Leonardo da Vinci"
       },
       "works": [
         {
@@ -7991,7 +9557,7 @@ const DATA = {
     {
       "id": "campin",
       "name": "Robert Campin",
-      "nameFull": "Robert Campin (Master of Flémalle)",
+      "nameFull": "Robert Campin",
       "dates": "c. 1375–1444",
       "born": 1375,
       "died": 1444,
@@ -8210,7 +9776,7 @@ const DATA = {
     },
     {
       "id": "machaut",
-      "name": "Machaut",
+      "name": "Guillaume de Machaut",
       "nameFull": "Guillaume de Machaut",
       "dates": "c. 1300–1377",
       "born": 1300,
@@ -8280,7 +9846,7 @@ const DATA = {
     },
     {
       "id": "landini",
-      "name": "Landini",
+      "name": "Francesco Landini",
       "nameFull": "Francesco Landini",
       "dates": "c. 1325–1397",
       "born": 1325,
@@ -8339,7 +9905,7 @@ const DATA = {
     },
     {
       "id": "dufay",
-      "name": "Dufay",
+      "name": "Guillaume Dufay",
       "nameFull": "Guillaume Dufay",
       "dates": "c. 1397–1474",
       "born": 1397,
@@ -8416,7 +9982,7 @@ const DATA = {
     },
     {
       "id": "binchois",
-      "name": "Binchois",
+      "name": "Gilles Binchois",
       "nameFull": "Gilles Binchois",
       "dates": "c. 1400–1460",
       "born": 1400,
@@ -8475,7 +10041,7 @@ const DATA = {
     },
     {
       "id": "ockeghem",
-      "name": "Ockeghem",
+      "name": "Johannes Ockeghem",
       "nameFull": "Johannes Ockeghem",
       "dates": "c. 1410–1497",
       "born": 1410,
@@ -8550,11 +10116,13 @@ const DATA = {
   ],
   "lede": "Earliest years at the left; later years to the right",
   "centuries": [
+    1000,
+    1100,
     1200,
     1300,
     1400
   ]
-};
+}
 
 const $ = (s, r=document) => r.querySelector(s);
 let openArtist = null;
@@ -9042,6 +10610,13 @@ function openPanel(a, focusWork){
     html += `<details class="vasari"><summary>Vasari · ${escapeHtml(a.vasari.life||'Life')}</summary>
       <blockquote>${escapeHtml(a.vasari.text).replace(/\n\n/g,'</blockquote><blockquote>')}</blockquote>
       <p class="cite">${escapeHtml(a.vasari.cite||'')}</p></details>`;
+  }
+  if (a.vasari && a.vasari.url){
+    const of = a.vasari.of || a.nameFull || a.name;
+    html += `<div class="vasari-complete">
+      <p class="vasari-complete-kicker">Complete Text of Vasari's Life of ${escapeHtml(of)}</p>
+      <p class="vasari-complete-link"><a href="${escapeAttr(a.vasari.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(a.vasari.life || "Vasari's Life")}</a></p>
+    </div>`;
   }
   $('#panel-body').innerHTML = html;
   pan.hidden = false;
