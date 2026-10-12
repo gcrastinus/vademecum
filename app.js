@@ -3525,16 +3525,6 @@ const DATA = {
       "vasari": null,
       "works": [
         {
-          "id": "guido-siena",
-          "title": "Maestà di San Domenico",
-          "date": "c. 1270–80",
-          "year": 1275,
-          "place": "Siena, Palazzo Pubblico",
-          "file": "images/guido-siena.jpg",
-          "w": 1280,
-          "h": 1944
-        },
-        {
           "id": "guido-wiki-enthroned-madonna-of-guido-of-siena-c-1270-80",
           "title": "Enthroned Madonna of Guido of Siena, c. 1270–80",
           "date": "c. 1275",
