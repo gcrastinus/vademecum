@@ -822,7 +822,7 @@ const DATA = {
           "date": "c. 1140",
           "year": 1140,
           "place": "Saint-Denis",
-          "file": "images/saint-denis-basilique-saint-denis-verri-re-de-l-arbre-de-jes.jpg",
+          "file": "images/saint-denis-jesse-tree-whole-window.jpg",
           "w": 1067,
           "h": 1600
         },
