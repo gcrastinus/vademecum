@@ -823,7 +823,7 @@ const DATA = {
           "year": 1140,
           "place": "Saint-Denis",
           "file": "images/saint-denis-basilique-saint-denis-verri-re-de-l-arbre-de-jes.jpg",
-          "w": 1200,
+          "w": 1067,
           "h": 1600
         },
         {
