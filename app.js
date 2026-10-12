@@ -3521,7 +3521,7 @@ const DATA = {
       "medium": "painting",
       "region": "italy",
       "place": "Siena",
-      "famous": "guido-siena",
+      "famous": "guido-wiki-enthroned-madonna-of-guido-of-siena-c-1270-80",
       "vasari": null,
       "works": [
         {
